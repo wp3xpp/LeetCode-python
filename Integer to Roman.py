@@ -15,7 +15,6 @@ class Solution:
             while num >= value[i]:
                 num -= value[i]
                 res += symbol[i]
-                print num
             i += 1
         return res
 
